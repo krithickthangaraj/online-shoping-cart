@@ -1,0 +1,14 @@
+/* styles.css (or your component-specific CSS file) */
+
+.navbar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar is above other content */
+  }
+  
+  .router-outlet-wrapper {
+    padding-top: 70px; /* Adjust based on the height of your navbar */
+  }
+  

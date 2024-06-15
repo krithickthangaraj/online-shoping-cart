@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 20px;
+}
+
+p span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.product-details {
+  width: 100%;
+  max-width: 800px;
+}
+
+.product-card {
+  margin-bottom: 20px;
+}
+
+.cart-item-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-info {
+  flex-grow: 1;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-price, .feedback-button, .quantity-button, .remove-button, .pay-button, .cancel-button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.product-price {
+  color: #007bff;
+}
+
+.feedback-button, .quantity-button, .remove-button, .pay-button, .cancel-button {
+  background-color: #007bff;
+  margin-top: 30px;
+}
+
+.feedback-button:hover, .quantity-button:hover, .remove-button:hover, .pay-button:hover, .cancel-button:hover {
+  background-color: #0056b3;
+}
+
+.remove-button {
+  background-color: #dc3545;
+}
+
+.remove-button:hover {
+  background-color: #9c2f3d;
+}
+
+.no-products {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+}
+
+.payment-details {
+  margin-top: 20px;
+}
+
+.payment-details ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feedback-button, .remove-button {
+  margin-right: 10px;
+}
+
+.cancel-button {
+  margin-left: 40px;
+}
