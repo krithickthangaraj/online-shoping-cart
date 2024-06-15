@@ -1,4 +1,4 @@
-# E-SPARE - Angular Shopping Cart Application
+# SHOP.io - Angular Shopping Cart Application
 
 E-SPARE is a web application developed using Angular for managing shopping cart functionality. It allows users to browse through a catalog of products, add items to their cart, and proceed to checkout. This README provides an overview of the project structure, setup instructions, and usage guidelines.
 
